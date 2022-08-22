@@ -1,0 +1,70 @@
+:root {
+    --green: #28a745;
+    --black: #212529;
+    --grey: #707070;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+.bg-success {
+    background-color: var(--green) !important;
+}
+
+.text-success {
+    color: var(--green) !important;
+}
+
+.p-row {
+    row-gap: 30px;
+}
+
+.card-title {
+    font-weight: 300;
+    font-size: 20px;
+    color: var(--black);
+}
+
+.card-text {
+    color: var(--grey);
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.location {
+    color: var(--grey);
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.p1 {
+    color: var(--grey);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.p2 {
+    color: var(--green);
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 11px;
+}
+
+.c-text {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.c-btn {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+footer img {
+    width: 82px;
+}
+footer p {
+    color: var(--grey);
+    font-weight: 300;
+}
